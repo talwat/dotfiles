@@ -1,0 +1,21 @@
+{
+    "author": {
+        "name": "Talwat",
+        "github": "talwat"
+    },
+    "version": "1.0",
+    "theme": {
+      "textColor": "#d3c6aa",
+      "backgroundColor": "#2f383e",
+      "matchBackgroundColor": "#7fbbb3",
+      "selection": {
+        "textColor": "#d3c6aa",
+        "backgroundColor": "#323d43"
+      },
+      "description": {
+        "textColor": "#a7c080",
+        "borderColor": "#323d43"
+      }
+    }
+  }
+  
