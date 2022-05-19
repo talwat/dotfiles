@@ -1,0 +1,28 @@
+{
+    "name": "Everforest",
+    "version": "1.0",
+    "description": "Everforest colorscheme for Google Chrome.",
+    "manifest_version": 3,
+    "theme": {
+        "colors": {
+            "frame": [ 47, 56, 62 ],
+            "frame_inactive": [ 47, 56, 62 ],
+            "frame_incognito": [ 59, 83, 96 ],
+            "frame_incognito_inactive": [ 59, 83, 96 ],
+            "toolbar": [ 50, 60, 65 ],
+            "toolbar_button_icon": [ 248, 248, 242 ],
+            "omnibox_text": [ 211, 198, 170 ],
+            "omnibox_background": [ 47, 56, 62 ],
+            "tab_text": [ 211, 198, 170 ],
+            "tab_background_text": [ 211, 198, 170 ],
+            "tab_background_text_inactive": [ 211, 198, 170 ],
+            "tab_background_text_incognito": [ 211, 198, 170 ],
+            "tab_background_text_incognito_inactive": [ 211, 198, 170 ],
+            "bookmark_text": [ 211, 198, 170 ],
+            "ntp_background": [ 55, 66, 71 ],
+            "ntp_text": [ 167, 192, 128 ],
+            "ntp_link": [ 127, 187, 179 ],
+            "button_background": [ 211, 198, 170 ]
+        }
+    }
+}
