@@ -2,12 +2,12 @@
  * @name everforest
  * @description A dark mode discord theme based on the everforest color palette.
  * @author talwat
- * @version 1.0
+ * @version 1.1
  * @authorId 741143876563370086
  * @source https://github.com/talwat/everforest-BD
  */
 
-* {
+ * {
     --light-bg-0: #f8f0dc;
     --light-bg-1: #efead4;
     --light-bg-2: #e9e5cf;
@@ -58,6 +58,43 @@
     --deprecated-text-input-border: var(--bg-0);
     --button-outline-danger-text: var(--fg);
     --background-modifier-selected: var(--bg-0);
+    --background-modifier-hover: var(--bg-1);
+
+    --scrollbar-auto-thumb: var(--bg-3);
+    --scrollbar-auto-track: var(--bg-2);
+    --scrollbar-thin-thumb: var(--bg-3);
+    --scrollbar-thin-track: transparent;
+
+    --deprecated-quickswitcher-input-background: var(--bg-1);
+
+    color: var(--fg);
+}
+
+.colorBrand-ROmMP1 {
+    color: var(--green);
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j,
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+    background-color: var(--background-modifier-hover) !important;
+}
+
+.lookFilled-1Gx00P {
+    background-color: var(--green) !important;
+}
+
+.lookFilled-1Gx00P:active,
+.lookFilled-1Gx00P:hover {
+    background-color: #3b5360 !important;
+}
+
+.lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) {
+    color: var(--green);
+    border-color: var(--green);
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j,
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
     color: var(--fg);
 }
 
