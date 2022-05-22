@@ -2,6 +2,9 @@
  * @name everforest
  * @description A dark mode discord theme based on the everforest color palette.
  * @author talwat
+ * @version 1.0
+ * @authorId 741143876563370086
+ * @source https://github.com/talwat/everforest-BD
  */
 
 * {
@@ -55,6 +58,7 @@
     --deprecated-text-input-border: var(--bg-0);
     --button-outline-danger-text: var(--fg);
     --background-modifier-selected: var(--bg-0);
+    color: var(--fg);
 }
 
 .theme-dark {
@@ -95,10 +99,6 @@
 
 .floating-window {
     border-radius: 0.75rem;
-}
-
-* {
-    color: var(--fg);
 }
 
 .tabBody-2dgbAs {
