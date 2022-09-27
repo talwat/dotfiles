@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "version": "1.1",
+  "name": "Everforest Medium Dark",
+  "theme": {
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "rgb(64, 76, 81)",
+      "toolbar_text": "rgb(211, 198, 170)",
+      "frame": "rgb(55, 66, 71)",
+      "tab_background_text": "rgb(157, 169, 160)",
+      "toolbar_field": "rgb(47, 56, 62)",
+      "toolbar_field_text": "rgb(211, 198, 170)",
+      "tab_line": "rgb(131, 192, 146)",
+      "popup": "rgb(64, 76, 81)",
+      "popup_text": "rgb(211, 198, 170)",
+      "button_background_hover": "rgb(74, 85, 91)",
+      "icons": "rgb(211, 198, 170)",
+      "ntp_background": "rgb(64, 76, 81)",
+      "ntp_text": "rgb(211, 198, 170)",
+      "popup_border": "rgb(74, 85, 91)",
+      "popup_highlight_text": "rgb(211, 198, 170)",
+      "popup_highlight": "rgb(74, 85, 91)",
+      "tab_selected": "rgb(74, 85, 91)",
+      "toolbar_bottom_separator": "rgb(74, 85, 91)",
+      "toolbar_field_border_focus": "rgb(131, 192, 146)",
+      "toolbar_field_border": "rgb(89, 103, 99)",
+      "toolbar_field_focus": "rgb(64, 76, 81)",
+      "toolbar_field_highlight_text": "rgb(211, 198, 170)",
+      "toolbar_field_highlight": "rgb(82, 92, 98)",
+      "toolbar_field_text_focus": "rgb(211, 198, 170)",
+      "toolbar_top_separator": "rgb(89, 103, 99)",
+      "toolbar_vertical_separator": "rgb(211, 198, 170)",
+      "tab_loading": "rgb(131, 192, 146)"
+    }
+  }
+}
