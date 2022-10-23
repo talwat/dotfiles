@@ -4,13 +4,13 @@ packadd! everforest
 syntax enable
 colorscheme everforest
 
-hi Normal guibg=NONE ctermbg=NONE
 set t_ut=
 set termguicolors
 set noerrorbells
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
+set showtabline=2
 set smartindent
 set nu
 set nowrap
@@ -48,7 +48,6 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-" Plug 'https://github.com/ycm-core/YouCompleteMe.git'
 Plug 'mbbill/undotree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -56,13 +55,18 @@ Plug 'preservim/tagbar'
 Plug 'jreybert/vimagit'
 Plug 'tpope/vim-fugitive'
 Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'othree/html5.vim'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'elzr/vim-json'
+Plug 'ervandew/supertab', {'branch': 'master'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'preservim/nerdcommenter'
-" Plug 'https://github.com/ternjs/tern_for_vim.git'
+Plug 'tribela/vim-transparent'
+Plug 'mattn/emmet-vim'
 
 call plug#end()
