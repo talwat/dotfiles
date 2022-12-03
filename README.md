@@ -33,3 +33,7 @@ There is a high likelihood that these will not work for you. Do not just copy pa
 ## Dracula
 
 ![Dracula Preview](https://media.discordapp.net/attachments/941764939893325855/967558591022247986/Screen_Shot_2022-04-23_at_12.46.29.png)
+
+## Gruvbox
+
+No information because I never ended up using them.

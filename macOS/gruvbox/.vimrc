@@ -1,7 +1,7 @@
 " === PLUGINS ===
 call plug#begin('~/.vim/plugged')
 
-Plug 'sainnhe/everforest', { 'as': 'everforest' }
+Plug 'morhetz/gruvbox', { 'as': 'gruvbox' }
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/tagbar'
 Plug 'jreybert/vimagit'
@@ -23,15 +23,10 @@ call plug#end()
 
 " === THEMING ===
 set termguicolors
-set background=dark
 
-let g:everforest_background = 'medium'
-let g:everforest_better_performance = 1
+let g:gruvbox_contrast_dark = 'medium'
 
-colorscheme everforest
-
-let &t_ZH="\e[3m"
-let &t_ZR="\e[23m"
+colorscheme gruvbox
 
 " === OPTIONS ===
 syntax on
@@ -78,7 +73,7 @@ let &t_EI = "\e[6 q"
 " === AIRLINE ===
 let g:airline_powerline_fonts = 1
 let g:airline_skip_empty_sections = 1
-let g:airline_theme='everforest'
+let g:airline_theme='gruvbox'
 let g:airline#extensions#branch#enabled=1
 let g:airline#extensions#tabline#enabled = 1
 

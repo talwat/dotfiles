@@ -1,0 +1,19 @@
+@-moz-document url-prefix("about:") {
+  * {
+    --newtab-primary-action-background: #3c3836;
+    --newtab-primary-action-background-pocket: #3c3836;
+    --newtab-primary-action-background-dimmed: color-mix(in srgb, var(--newtab-primary-action-background) 25%, transparent);
+    --newtab-primary-action-background-pocket-dimmed: color-mix(in srgb, var(--newtab-primary-action-background) 25%, transparent);
+    --newtab-primary-element-hover-color: color-mix(in srgb, var(--newtab-primary-action-background) 55%, #FFF);
+  }
+
+  .search-handoff-button, .tile, .top-site-icon {
+    background-color: #282828 !important;
+  }
+
+  .wordmark {
+    background: url("https://svgur.com/i/mz7") no-repeat center center !important;
+    height: 42px !important;
+    width: 79px !important;
+  }
+}
