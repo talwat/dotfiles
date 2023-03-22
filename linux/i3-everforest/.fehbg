@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale '/home/tal/.local/share/backgrounds/20230313.jpg' 
