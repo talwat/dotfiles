@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'sainnhe/everforest', { 'as': 'everforest' }
 Plug 'vim-airline/vim-airline'
+"Plug 'itchyny/lightline.vim'
 Plug 'preservim/tagbar'
 Plug 'jreybert/vimagit'
 Plug 'ryanoasis/vim-devicons'
@@ -15,6 +16,7 @@ Plug 'vim-python/python-syntax', { 'for': 'python' }
 Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'evanleck/vim-svelte', { 'for': 'svelte', 'branch': 'main' }
 Plug 'elzr/vim-json', { 'for': 'json' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'vim' }
 
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
@@ -43,12 +45,14 @@ filetype plugin on
 
 set wildmenu
 
+set noshowmode
 set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8
 set ttyfast
 
 set backspace=indent,eol,start
+set ve+=onemore
 
 set belloff=all
 set tabstop=4 softtabstop=4
@@ -81,6 +85,16 @@ let g:airline_skip_empty_sections = 1
 let g:airline_theme='everforest'
 let g:airline#extensions#branch#enabled=1
 let g:airline#extensions#tabline#enabled = 1
+
+" === LIGHTLINE ===
+set laststatus=2
+let g:lightline = {}
+let g:lightline.colorscheme = "everforest"
+
+"let g:lightline.separator = { 'left': "\ue0b8", 'right': "\ue0be" }
+"let g:lightline.subseparator = { 'left': "\ue0b9", 'right': "\ue0b9" }
+"let g:lightline.tabline_separator = { 'left': "\ue0bc", 'right': "\ue0ba" }
+"let g:lightline.tabline_subseparator = { 'left': "\ue0bb", 'right': "\ue0bb" }
 
 " === NERDTREE ===
 

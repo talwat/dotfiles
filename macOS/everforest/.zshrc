@@ -13,7 +13,9 @@
 alias nes="/Applications/fceux.app/Contents/MacOS/fceux"
 alias python="python3"
 alias pip="pip3"
+alias cato="command cat"
 alias lso="command ls"
+alias l="colorls -a -l"
 alias ls="colorls -a"
 alias cls="clear"
 alias wget="wget -c"
@@ -72,7 +74,7 @@ export LDFLAGS="-L/opt/homebrew/opt/bison/lib"
 set -o PROMPT_SUBST
 export OMGO_PLUGINS="git"
 export OMGO_SHOW_USER_HOSTNAME=1
-PS1='$( oh-my-go prompt zsh $PWD $USER $? )'
+PS1='$( oh-my-go prompt --shell=zsh --pwd=$PWD --user=$USER --exitcode=$? --hostname=$HOST )'
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
