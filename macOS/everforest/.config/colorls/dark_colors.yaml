@@ -1,0 +1,47 @@
+# Everforest themed dark color settings for colorls
+#
+# Main Colors
+unrecognized_file: '#d3c6aa' # Orange
+recognized_file:   '#fff9e8' # Foreground
+executable_file:   '#a7c080' # Green
+dir:               '#a7c080' # Green
+
+# Link
+dead_link: '#e67e80'         # Red
+link:      '#83c092'         # Cyan
+
+# Special Files
+socket:    '#a7c080'         # Green
+blockdev:  '#a7c080'         # Green
+chardev:   '#a7c080'         # Green
+
+# Access Modes
+write:     '#d699b6'         # Pink
+read:      '#7fbbb3'         # Purple
+exec:      '#83c092'         # Cyan
+no_access: '#e67e80'         # Red
+
+# Age
+hour_old:    '#d6d0bb'       # Comment - 20% lighter
+day_old:     '#d3c6aa'       # Comment
+no_modifier: '#7fbbb3'       # Current Line
+
+# File Size
+file_large:  '#e67e80'       # Red
+file_medium: '#dbbc7f'       # Orange
+file_small:  '#a7c080'       # Green
+
+# Random
+report: '#a7c080'            # Green
+user:   '#83c092'            # Cyan
+tree:   '#7fbbb3'            # Current Line
+empty:  '#d3c6aa'            # Comment
+error:  '#e67e80'            # Red
+normal: '#2f383e'            # Foreground
+
+# Git
+addition:     '#83c092'      # Cyan
+modification: '#dbbc7f'      # Yellow
+deletion:     '#e67e80'      # Red
+untracked:    '#dbbc7f'      # Orange
+unchanged:    '#a7c080'      # Green
