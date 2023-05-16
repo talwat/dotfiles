@@ -3,18 +3,18 @@
     "name": "Talwat",
     "github": "talwat"
   },
-  "version": "1.0",
+  "version": "1.1",
   "theme": {
     "textColor": "#d3c6aa",
-    "backgroundColor": "#2f383e",
+    "backgroundColor": "#2D353B",
     "matchBackgroundColor": "#7fbbb3",
     "selection": {
       "textColor": "#d3c6aa",
-      "backgroundColor": "#323d43"
+      "backgroundColor": "#343F44"
     },
     "description": {
       "textColor": "#a7c080",
-      "borderColor": "#323d43"
+      "borderColor": "#343F44"
     }
   }
 }
