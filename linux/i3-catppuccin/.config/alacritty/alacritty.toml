@@ -1,6 +1,3 @@
-import = [
-  "~/.config/alacritty/catppuccin-macchiato.toml"
-]
 
 [window]
 padding = { x = 8, y = 8 }
@@ -26,3 +23,8 @@ style = "Italic"
 [font.normal]
 family = "Fira Code"
 style = "Regular"
+
+[general]
+import = [
+  "~/.config/alacritty/catppuccin-macchiato.toml"
+]
