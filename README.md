@@ -2,7 +2,7 @@
 
 # Dotfiles
 
-All of my dotfiles that I have made.
+Some of my dotfiles that I decided to upload somewhere.
 
 ## Warning
 
